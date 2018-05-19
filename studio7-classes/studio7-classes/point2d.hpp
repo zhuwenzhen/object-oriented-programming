@@ -14,18 +14,20 @@
 
 using namespace std;
 
-// struct declaration
-struct Point2D {
-    int x;
-    int y;
-    Point2D();
-};
-//class Point2D {
-//public:
-//    Point2D(int x_, int y_);
+// P2: struct declaration
+//struct Point2D {
 //    int x;
 //    int y;
+//    Point2D();
 //};
+
+// P3: class declaration
+class Point2D {
+public:
+    Point2D(int x_, int y_);
+    int x;
+    int y;
+};
 
 
 

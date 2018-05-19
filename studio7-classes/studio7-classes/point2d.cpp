@@ -7,5 +7,9 @@
 //
 
 #include "point2d.hpp"
+// p2: declare and define a default constructor that initializes the member variables to 0
+Point2D::Point2D(): x(0), y(0) {}
+
+
 //Point2D::Point2D (int x_, int y_): x(x_), y(y_) {}
-// Point2D::Point2D(): x(0), y(0) {}
+
