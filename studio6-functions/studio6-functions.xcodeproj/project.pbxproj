@@ -29,6 +29,7 @@
 		15F4C21420AFBEA700ED1CC0 /* studio6-functions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "studio6-functions.md"; sourceTree = "<group>"; };
 		15F4C21520AFBF0B00ED1CC0 /* factorial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = factorial.cpp; sourceTree = "<group>"; };
 		15F4C21620AFBF0B00ED1CC0 /* factorial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = factorial.hpp; sourceTree = "<group>"; };
+		15F4C21920AFC0C200ED1CC0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 				15F4C21420AFBEA700ED1CC0 /* studio6-functions.md */,
 				15F4C21520AFBF0B00ED1CC0 /* factorial.cpp */,
 				15F4C21620AFBF0B00ED1CC0 /* factorial.hpp */,
+				15F4C21920AFC0C200ED1CC0 /* README.md */,
 			);
 			path = "studio6-functions";
 			sourceTree = "<group>";

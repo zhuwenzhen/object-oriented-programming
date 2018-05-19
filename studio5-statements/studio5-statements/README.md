@@ -1,4 +1,4 @@
-#  Studio 5: Statements
+# CSE 332 Studio Session on C++ Statements
 Wenzhen Zhu
 
 ## Problem 3. Throw Statement
