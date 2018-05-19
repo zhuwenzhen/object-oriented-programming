@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:studio6-functions/studio6-functions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:studio5-statements/studio5-statements.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:studio4-expressions/studio4-expressions.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:studio3-strings-vectors-arrays-io/studio3-strings-vectors-arrays-io.xcodeproj">
+   </FileRef>
+</Workspace>
