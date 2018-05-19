@@ -12,12 +12,12 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    int trials[5] = {4, 5, 6, 7, 8};
+    unsigned int trials[5] = {4, 5, 6, 7, 8};
     for (int i = 0; i < 5; i++) {
         cout << "n = " << i << endl;
-        int * res1 = 0;
+        unsigned int *res1;
         factorial_pointer(trials[i], res1);
-        cout << "pointer result = " << res1 << endl;
+        cout << "pointer result = " << &res1 << endl;
         unsigned int res2;
         factorial_ref(trials[i], res2);
         cout << "reference result = " << res2 << endl;

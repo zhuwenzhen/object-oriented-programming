@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:studio7-classes/studio7-classes.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:studio6-functions/studio6-functions.xcodeproj">
    </FileRef>
    <FileRef

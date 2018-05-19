@@ -50,7 +50,6 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 ```
-
 ### 5. Pass result by pointer
 Modify your solution to the previous exercise so that for the second argument it takes a pointer to an unsigned integer by value, instead of taking an unsigned integer by reference. As the answer to this exercise, please explain what you had to do to make your solution work correctly.
 

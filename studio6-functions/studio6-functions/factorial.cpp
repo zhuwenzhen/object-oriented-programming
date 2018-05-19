@@ -5,8 +5,10 @@
 //  Created by Wenzhen Zhu on 5/18/18.
 //  Copyright © 2018 Wenzhen Zhu. All rights reserved.
 //
-
+#include <iostream>
 #include "factorial.hpp"
+
+using namespace std;
 // P3
 int factorial_loop(unsigned int n) {
     int res = 1;
@@ -31,10 +33,12 @@ void factorial_ref(unsigned int n, unsigned int &res) {
 }
 
 // P5
-void factorial_pointer( int n,  int *res) {
-    int ans = 1;
-    for (int i = 1; i <= n; i++) {
+void factorial_pointer( unsigned int n,  unsigned int *res) {
+    unsigned int ans = 1;
+    for (unsigned int i = 1; i <= n; i++) {
         ans *= i;
+        *res = ans;
     }
-    *res = ans;
+    cout << ans << endl;
+    
 }
