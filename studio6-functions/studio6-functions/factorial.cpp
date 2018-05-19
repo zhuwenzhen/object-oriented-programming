@@ -21,3 +21,20 @@ int factorial_recursion(unsigned int n) {
     else return n * factorial_recursion(n - 1);
 }
 
+// P4
+void factorial_ref(unsigned int n, unsigned int &res) {
+    unsigned ans = 1;
+    for (int i = 1; i <= n; i++) {
+        ans *= i;
+    }
+    res = ans;
+}
+
+// P5
+void factorial_pointer( int n,  int *res) {
+    int ans = 1;
+    for (int i = 1; i <= n; i++) {
+        ans *= i;
+    }
+    *res = ans;
+}

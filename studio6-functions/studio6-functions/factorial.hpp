@@ -10,6 +10,10 @@
 #define factorial_hpp
 
 #include <stdio.h>
+void factorial_pointer(int n, int *res);
 int factorial_loop(unsigned int n);
 int factorial_recursion(unsigned int n);
+void factorial_ref(unsigned int n, unsigned int &res);
+
+
 #endif /* factorial_hpp */
